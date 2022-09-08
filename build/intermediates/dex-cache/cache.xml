@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Aniket/Downloads/Derby2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0800286dd00e8ffd39b88de9bd20fe722c1c08c">
+        <dex dex="/Users/Aniket/Downloads/Derby2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_16784425e04dd7f71ba3e0f7e5d53a19e49adf8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Aniket/Downloads/Derby2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Aniket/Downloads/Derby2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_70c30dae44f9d5d619cfd4b5ff7d6ccb4180d0a5/classes.dex" />
+    </item>
+
+</items>

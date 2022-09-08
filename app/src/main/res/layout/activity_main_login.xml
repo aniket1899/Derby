@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aniket.derby.MainActivityLogin"
+    android:orientation="vertical"
+    android:background="@drawable/football_back3"
+    >
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linear_login_main"
+        >
+
+
+            <EditText
+            android:id="@+id/e_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            style="@style/EditTextWhite"
+            android:background="@drawable/back_edittext_white"
+                />
+
+
+        <EditText
+            android:id="@+id/e_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"
+            style="@style/EditTextWhite"
+            android:background="@drawable/back_edittext_white"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp"
+            android:id="@+id/button_login"
+            android:textSize="20sp"
+            android:background="@drawable/white_circular_button"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No account yet? Sign up"
+            android:textAlignment="center"
+            android:id="@+id/button_register"
+            android:textColor="@color/white"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginBottom="40dp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/linear_login_main"
+        android:src="@drawable/derby_text3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load DB"
+        android:id="@+id/login_load_db"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        />
+<!--
+    </LinearLayout>
+-->
+</RelativeLayout>

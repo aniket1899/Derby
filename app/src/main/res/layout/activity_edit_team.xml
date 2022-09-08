@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorLayoutEditTeam"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aniket.derby.EditTeam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Team Name"
+        style="@style/BigTextBoldp15"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_team_name"
+        style="@style/EditText1"
+        android:hint="Team Name"
+        android:background="@drawable/back_edittext_white_bordered"
+        android:textColorHint="#A9A9A9"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+    <View style="@style/Divider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Team Members"
+            style="@style/BigTextBoldp15"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_team_member1"
+            style="@style/EditText1"
+            android:background="@drawable/back_edittext_white_bordered"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_team_member2"
+            style="@style/EditText1"
+            android:background="@drawable/back_edittext_white_bordered"
+            android:hint="Team Member 2"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_team_member3"
+            style="@style/EditText1"
+            android:background="@drawable/back_edittext_white_bordered"
+            android:hint="Team Member 3"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_team_member4"
+            style="@style/EditText1"
+            android:background="@drawable/back_edittext_white_bordered"
+            android:hint="Team Member 4"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_team_member5"
+            style="@style/EditText1"
+            android:background="@drawable/back_edittext_white_bordered"
+            android:hint="Team Member 5"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_confirm_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_check_white_24dp"
+        />
+</android.support.design.widget.CoordinatorLayout>

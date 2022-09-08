@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            style="@style/BigTextBold"
+            android:padding="10dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:id="@+id/pref_location"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Days"
+            style="@style/BigTextBold"
+
+            android:padding="10dp"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:id="@+id/pref_days"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            />
+        <View style="@style/Divider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timing"
+            style="@style/BigTextBold"
+
+            android:padding="10dp"
+
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_start_time"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/time_format_background"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_end_time"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/time_format_background"
+                />
+        </LinearLayout>
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turfs"
+            style="@style/BigTextBold"
+
+            android:padding="10dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_turf1"
+                android:textSize="20sp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_turf2"
+                android:textSize="20sp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_turf3"
+                android:textSize="20sp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_turf4"
+                android:textSize="20sp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_turf5"
+                android:textSize="20sp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"                />
+        </LinearLayout>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        style="@style/marginTopBottom10dp"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextLabelBold"
+                android:text="Location"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CardLabelText"
+                android:text="Location"
+                android:id="@+id/pref_location"
+                />
+        </LinearLayout>
+        </LinearLayout>
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timing"
+            style="@style/TextLabelBold"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_start_time"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/time_format_background"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pref_end_time"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:background="@drawable/time_format_background"
+                />
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            style="@style/marginTopBottom10dp"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextLabelBold"
+                    android:text="Team Level"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelText"
+                    android:id="@+id/pref_level"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            style="@style/marginTopBottom10dp"
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextLabelBold"
+                    android:text="Days"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelText"
+                    android:id="@+id/pref_days"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            style="@style/marginTopBottom10dp"
+
+            >
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/TextLabelBold"
+                    android:text="Turfs"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelTextnopadding"
+                    android:text="Turf1"
+                    android:id="@+id/pref_turf1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelTextnopadding"
+                    android:text="Turf2"
+                    android:id="@+id/pref_turf2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelTextnopadding"
+                    android:text="Turf3"
+                    android:id="@+id/pref_turf3"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelTextnopadding"
+                    android:text="Turf4"
+                    android:id="@+id/pref_turf4"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/CardLabelTextnopadding"
+                    android:text="Turf5"
+                    android:id="@+id/pref_turf5"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>

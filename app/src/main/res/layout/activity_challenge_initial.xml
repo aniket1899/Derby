@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aniket.derby.ChallengeInitialActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@drawable/dark_bordered">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:text="Find matches?"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:text="Using your Preferences and your Team, we'll find a match for you from the Challenge Pool.
+                    \nYou can Accept another Team's Challenge and after they approve, you'll find yourself a match to play.
+                    \nYou might want to check your Preferences and Team before putting your Challenge."
+                    android:id="@+id/challenge_initial_more_info"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="0.4"
+    android:layout_margin="10dp">
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        style="@style/ButtonPrimaryBig"
+    android:text="Manage Preferences?"
+    android:id="@+id/button_manage_preferences"
+        android:background="@drawable/button_bordered"
+        />
+
+    <Button
+        style="@style/ButtonPrimaryBig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Team?"
+        android:id="@+id/button_manage_team"
+        android:background="@drawable/button_bordered"
+        />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.2"/>
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_arrow_forward_white_24dp"
+        />
+</android.support.design.widget.CoordinatorLayout>

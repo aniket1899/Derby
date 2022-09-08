@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.aniket.derby.AccountFragment">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        app:backgroundTint="#ffffff"
+        />
+    <include layout="@layout/content_fragment_account" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_edit_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_create_white_24dp"
+        />
+
+</FrameLayout>

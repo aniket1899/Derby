@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Derby</string>
+    <string name="title_activity_home_nav_bar">HomeActivityNavBar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_display_manage_preferences">DisplayManagePreferences</string>
+    <string name="prompt_location">Select Location</string>
+</resources>
