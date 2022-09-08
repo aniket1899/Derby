@@ -1,5 +1,5 @@
 # Derby
-A football (soccer) match making application made using Android (Java and XML), SQLite. Final year project for undergrad.
+A football (soccer) match making application made using Android (Java and XML), SQLite. Final year project for undergrad. The inspiration for the logic behind the main match-making algorithm was derived from Fuzzy Logic. 
 
 ### Features:
 * Users can register themselves and add players to their teams, prior to the match-making process.
